@@ -21,4 +21,4 @@ res = fob.compute_visualization(
 dataset.set_values("clip_umap", res.current_points)
 
 # launch the app to visualize the dataset
-session = fo.launch_app(dataset
+session = fo.launch_app(dataset)

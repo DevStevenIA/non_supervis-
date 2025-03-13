@@ -1,0 +1,43 @@
+Collecting umap-learn
+  Obtaining dependency information for umap-learn from https://files.pythonhosted.org/packages/3c/8f/671c0e1f2572ba625cbcc1faeba9435e00330c3d6962858711445cf1e817/umap_learn-0.5.7-py3-none-any.whl.metadata
+  Downloading umap_learn-0.5.7-py3-none-any.whl.metadata (21 kB)
+Requirement already satisfied: numpy>=1.17 in ./env_linux/lib/python3.12/site-packages (from umap-learn) (2.2.3)
+Requirement already satisfied: scipy>=1.3.1 in ./env_linux/lib/python3.12/site-packages (from umap-learn) (1.15.2)
+Requirement already satisfied: scikit-learn>=0.22 in ./env_linux/lib/python3.12/site-packages (from umap-learn) (1.6.1)
+Collecting numba>=0.51.2 (from umap-learn)
+  Obtaining dependency information for numba>=0.51.2 from https://files.pythonhosted.org/packages/18/74/6a9f0e6c76c088f8a6aa702eab31734068061dca5cc0f34e8bc1eb447de1/numba-0.61.0-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata
+  Downloading numba-0.61.0-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (2.8 kB)
+Collecting pynndescent>=0.5 (from umap-learn)
+  Obtaining dependency information for pynndescent>=0.5 from https://files.pythonhosted.org/packages/d2/53/d23a97e0a2c690d40b165d1062e2c4ccc796be458a1ce59f6ba030434663/pynndescent-0.5.13-py3-none-any.whl.metadata
+  Downloading pynndescent-0.5.13-py3-none-any.whl.metadata (6.8 kB)
+Collecting tqdm (from umap-learn)
+  Obtaining dependency information for tqdm from https://files.pythonhosted.org/packages/d0/30/dc54f88dd4a2b5dc8a0279bdd7270e735851848b762aeb1c1184ed1f6b14/tqdm-4.67.1-py3-none-any.whl.metadata
+  Downloading tqdm-4.67.1-py3-none-any.whl.metadata (57 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 57.7/57.7 kB 9.5 MB/s eta 0:00:00
+Collecting llvmlite<0.45,>=0.44.0dev0 (from numba>=0.51.2->umap-learn)
+  Obtaining dependency information for llvmlite<0.45,>=0.44.0dev0 from https://files.pythonhosted.org/packages/cb/da/8341fd3056419441286c8e26bf436923021005ece0bff5f41906476ae514/llvmlite-0.44.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata
+  Downloading llvmlite-0.44.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (5.0 kB)
+Collecting numpy>=1.17 (from umap-learn)
+  Obtaining dependency information for numpy>=1.17 from https://files.pythonhosted.org/packages/9e/3e/3757f304c704f2f0294a6b8340fcf2be244038be07da4cccf390fa678a9f/numpy-2.1.3-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata
+  Downloading numpy-2.1.3-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (62 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 62.0/62.0 kB 16.3 MB/s eta 0:00:00
+Requirement already satisfied: joblib>=0.11 in ./env_linux/lib/python3.12/site-packages (from pynndescent>=0.5->umap-learn) (1.4.2)
+Requirement already satisfied: threadpoolctl>=3.1.0 in ./env_linux/lib/python3.12/site-packages (from scikit-learn>=0.22->umap-learn) (3.5.0)
+Downloading umap_learn-0.5.7-py3-none-any.whl (88 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 88.8/88.8 kB 21.8 MB/s eta 0:00:00
+Downloading numba-0.61.0-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (3.9 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.9/3.9 MB 65.5 MB/s eta 0:00:00
+Downloading numpy-2.1.3-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (16.0 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.0/16.0 MB 50.0 MB/s eta 0:00:00
+Downloading pynndescent-0.5.13-py3-none-any.whl (56 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 56.9/56.9 kB 16.9 MB/s eta 0:00:00
+Downloading tqdm-4.67.1-py3-none-any.whl (78 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 78.5/78.5 kB 25.7 MB/s eta 0:00:00
+Downloading llvmlite-0.44.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (42.4 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 42.4/42.4 MB 23.9 MB/s eta 0:00:00
+Installing collected packages: tqdm, numpy, llvmlite, numba, pynndescent, umap-learn
+  Attempting uninstall: numpy
+    Found existing installation: numpy 2.2.3
+    Uninstalling numpy-2.2.3:
+      Successfully uninstalled numpy-2.2.3
+Successfully installed llvmlite-0.44.0 numba-0.61.0 numpy-2.1.3 pynndescent-0.5.13 tqdm-4.67.1 umap-learn-0.5.7
